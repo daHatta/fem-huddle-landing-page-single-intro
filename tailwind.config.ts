@@ -27,8 +27,8 @@ const config: Config = {
         "icons": "",
       },
       backgroundImage: {
-        "mobile": "url('/images/bg-mobile.svg')",
-        "desktop": "url('/images/bg-desktop.svg')",
+        "mobile": "url('../images/bg-mobile.svg')",
+        "desktop": "url('../images/bg-desktop.svg')",
       },
       boxShadow: {
         "3xl": "0 10px 15px -3px rgba(0, 0, 0. 0.5)",

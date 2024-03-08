@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"></link>
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
       <body className={`${openSans.className} max-w-screen-2xl text-base bg-violet bg-contain bg-mobile bg-center-top bg-no-repeat md:bg-cover lg:bg-desktop lg:h-screen lg:bg-cover lg:bg-top-center`}>
         <div className="flex flex-col justify-center max-w-screen-xl min-h-full px-9 sm:px-[4.75rem] md:px-10 lg:px-16 xl:px-[80px] pt-[38px] sm:pt-[65px] mx-auto lg:pt-16 xl:pt-[54px]">
           <Header />
@@ -27,5 +27,5 @@ export default function RootLayout({
         </div>
       </body>
     </html>
-  );
-}
+  )
+};

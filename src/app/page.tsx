@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center w-full md:flex-row md:gap-12 xl:gap-[3.625rem]">
       <div className="md:w-[50%] xl:w-[64vw] xl:-ml-[5px] xl:-mr-[10px]">
-        <Image className="object-cover aspect-[709/506] w-full h-auto" src={"./images/illustration-mockups.svg"} width={709} height={506} alt="Illustration Mockup" />
+        <Image className="object-cover aspect-[709/506] w-full h-auto" src="./images/illustration-mockups.svg" width={709} height={506} alt="Illustration Mockup" />
       </div>
       <div className="text-center mt-16 sm:mt-[7.563rem] md:w-[50%] md:mt-0 xl:w-[29vw] xl:mt-[48px]">
         <h1 className={`${poppins.className} text-white text-2xl sm:text-5xl sm:px-6 md:px-0 leading-normal sm:leading-[1.5] font-semibold md:text-4xl md:leading-relaxed md:text-left xl:w-[486px]`}>Build The Community Your Fans Will Love</h1>
