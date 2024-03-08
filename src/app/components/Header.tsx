@@ -2,9 +2,11 @@ import Image from "next/image";
 
 const Header = () => {
     return (
-        <div className="">
-            <Image className="object-contain h-7 sm:h-14 w-auto lg:h-8" src={"./images/logo.svg"} width={198} height={49} alt="Logo" />
-        </div>
+        <>
+            <header className="flex justify-start sm:-mx-[6px] lg:-mx-[8px]">
+                <Image className="object-contain aspect-[198/49] sm:w-[257px] lg:w-[200px] xl:w-[220px]" src={"./images/logo.svg"} width={198} height={49} alt="Logo" />
+            </header>
+        </>
     )
 };
 
