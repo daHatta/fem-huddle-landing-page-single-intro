@@ -21,11 +21,6 @@ const config: Config = {
       "attr-clr": "hsl(228, 45%, 44%)",
     },
     extend: {
-      fontFamily: {
-        "body": "",
-        "headline": "",
-        "icons": "",
-      },
       backgroundImage: {
         "mobile": "url('../images/bg-mobile.svg')",
         "desktop": "url('../images/bg-desktop.svg')",
